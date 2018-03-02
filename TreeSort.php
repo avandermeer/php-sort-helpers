@@ -1,5 +1,6 @@
  class TreeSort{
 
+// $array = [ '1' => [ '3' => [ '2' => [ '7'=>[] ], '8'=>[ '9' => [ '4'=>[]] ]]]];
 
  public static function treeBuilder($currentId, $parentId, $root=null)
     {
